@@ -1,4 +1,5 @@
 import NavBar from "@/components/NavBar.jsx";
+import React from "react";
 
 function Home() {
   return (
