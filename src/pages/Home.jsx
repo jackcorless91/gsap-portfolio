@@ -1,16 +1,13 @@
-import NavBar from "@/components/NavBar.jsx";
+import Menu from "@/components/Menu.jsx";
 import React from "react";
 
 function Home() {
   return (
-      <div>
-        <main className="min-h-screen flex justify-center items-center">
-          <div className="text-8xl">
-          index <sup className="font-semibold">(01)</sup>
-          </div>
-          <div className="absolute bottom-5">click or sroll</div>
+      <main>
+        <h1>
+          index <sup>(01)</sup>
+        </h1>
         </main>
-      </div>
   );
 }
 
