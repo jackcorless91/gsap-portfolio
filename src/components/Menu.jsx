@@ -3,10 +3,13 @@ import { Link } from "react-router";
 
 import "./menu.css"
 
+import { gsap } from "gsap";
+import { useGSAP } from "@gsap/react";
+
 const menuLinks = [
-  { path: "/", label: "Home" },
-  { path: "/projects", label: "Projects" },
-  { path: "/contact", label: "Contact" },
+  { path: "/", label: "#Hero" },
+  { path: "/projects", label: "#Projects" },
+  { path: "/contact", label: "#Contact" },
 ];
 
 
@@ -17,6 +20,34 @@ function Menu() {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+
+  const tl = useRef();
+
+  useGSAP(() => {
+    gsap.set(".menu-link-item-holder", { y:25 });
+
+    tl.current = gsap.timeline({ paused: true })
+      .to(".menu-overlay", {
+        duration: 1.25,
+        clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
+        ease: "power4.inOut",
+      })
+      .to("menu-link-item-holder", {
+        y: 0,
+        duration: 1,
+        stagger: 0.1,
+        ease: "power4.inOut",
+        delay: -0.75,
+      });
+  }, { scope: container })
+
+  useEffect(() => {
+    if (isMenuOpen) {
+      tl.current.play()
+    } else {
+      tl.current.reverse()
+    }
+  }, [isMenuOpen])
 
   return (
     <nav className="menu-container" ref={container}>
@@ -66,7 +97,7 @@ function Menu() {
             </div>
             <div className="menu-info-col">
               <p>jackdcorless@proton.me</p>
-              <p>0923 3984 23</p>
+              <p>+61 437 128 864</p>
             </div>
           </div>
         </div>
