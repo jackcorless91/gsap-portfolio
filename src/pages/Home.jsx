@@ -4,7 +4,7 @@ import React from "react";
 function Home() {
   return (
       <main>
-        <h1>
+        <h1 className="page-title">
           index <sup>(01)</sup>
         </h1>
         </main>
