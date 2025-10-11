@@ -75,7 +75,7 @@
     color: #000;
     font-size: 96px;
     font-weight: 400;
-    letter-spacing: -0.02em;
+    letter-spacing: -0.025em;
     line-height: 85%;
 }
 
@@ -90,7 +90,7 @@
     justify-content: flex-end;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
     .menu-close-icon {
         display: none;
     }
@@ -101,5 +101,10 @@
 
     .menu-link-item-holder a {
         font-size: 60px;
+    }
+
+    .menu-bar,
+    .menu-overlay-bar {
+        padding: 1.5em;
     }
 }
