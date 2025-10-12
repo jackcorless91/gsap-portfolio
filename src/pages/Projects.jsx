@@ -1,11 +1,16 @@
 import React from 'react';
+import ProjectsContent from "@/components/ProjectsContent.jsx";
 
 function Projects() {
   return (
     <main>
-      <h1 className="page-title">
-      Projects <sup>(02)</sup>
-      </h1>
+      <div className="min-h-screen">
+        <h1 className="page-title">
+        Projects <sup>(02)</sup>
+        </h1>
+      </div>
+
+      <ProjectsContent />
     </main>
   );
 }

@@ -2,8 +2,7 @@ import React from 'react';
 
 function About() {
   return (
-    <section
-      className="min-h-[calc(100vh-4.5rem)] md:min-h-[calc(100vh-5.5rem)] text-white grid grid-rows-3 gap-1 pt-8">
+    <section className="min-h-[calc(100vh-4.5rem)] md:min-h-[calc(100vh-5.5rem)] text-white grid grid-rows-3 gap-1 pt-8">
       <div className="text-[11.5vw] w-screen tracking-tight uppercase text-center font-medium">Software developer</div>
       {/* add sm screen for font, wrap to second line ? */}
       <div className="flex justify-center items-center">
@@ -17,6 +16,7 @@ function About() {
           <div className="flex justify-between items-center">
             <button className="uppercase">view my work</button>
             <button className="uppercase">get in touch</button>
+          {/* add animations and styling on buttons */}
           </div>
 
         </div>
