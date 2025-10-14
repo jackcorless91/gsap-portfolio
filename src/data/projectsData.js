@@ -1,25 +1,31 @@
 export const projects = [
   {
-    title: "Matthias Leidinger",
-    description: "Originally hailing from Austria, Berlin-based photographer Matthias Leindinger is a young creative brimming with talent and ideas.",
+    title: "Workplace Managment System",
+    technologies: "Python, Flask, Django, Marshmallow etc...",
+    description: " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque et, itaque, modi molestias nesciunt officia perspiciatis placeat ratione sunt temporibus ullam vitae voluptatibus? Amet eius explicabo mollitia nesciunt quibusdam.",
     src: "rock.jpg",
-    link: "https://www.ignant.com/2023/03/25/ad2186-matthias-leidingers-photographic-exploration-of-awe-and-wonder/",
+    github: "https://www.ignant.com/2023/03/25/ad2186-matthias-leidingers-photographic-exploration-of-awe-and-wonder/",
+    url: "https://www.ignant.com/2023/03/25/ad2186-matthias-leidingers-photographic-exploration-of-awe-and-wonder/",
     color: "#BBACAF"
   },
 
   {
-    title: "Clément Chapillon",
-    description: "This is a story on the border between reality and imaginary, about the contradictory feelings that the insularity of a rocky, arid, and wild territory provokes”—so French photographer Clément Chapillon describes his latest highly captivating project Les rochers fauves (French for ‘The tawny rocks’).",
+    title: "Social Media Web App",
+    technologies: "Next.js, React, Tailwind, Clerk, Prisma, UploadThing, Neon etc...",
+    description: " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque et, itaque, modi molestias nesciunt officia perspiciatis placeat ratione sunt temporibus ullam vitae voluptatibus? Amet eius explicabo mollitia nesciunt quibusdam.",
     src: "tree.jpg",
-    link: "https://www.ignant.com/2022/09/30/clement-chapillon-questions-geographical-and-mental-isolation-with-les-rochers-fauves/",
+    github: "https://www.ignant.com/2023/03/25/ad2186-matthias-leidingers-photographic-exploration-of-awe-and-wonder/",
+    url: "https://www.ignant.com/2023/03/25/ad2186-matthias-leidingers-photographic-exploration-of-awe-and-wonder/",
     color: "#977F6D"
   },
   {
 
-    title: "Zissou",
-    description: "Though he views photography as a medium for storytelling, Zissou’s images don’t insist on a narrative. Both crisp and ethereal, they’re encoded with an ambiguity—a certain tension—that lets the viewer find their own story within them.",
+    title: "This Portfolio website",
+    technologies: "React, Vite, GSAP, Tailwind, Browser Router etc...",
+    description: " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque et, itaque, modi molestias nesciunt officia perspiciatis placeat ratione sunt temporibus ullam vitae voluptatibus? Amet eius explicabo mollitia nesciunt quibusdam.",
     src: "water.jpg",
-    link: "https://www.ignant.com/2023/10/28/capturing-balis-many-faces-zissou-documents-the-sacred-and-the-mundane-of-a-fragile-island/",
+    github: "https://www.ignant.com/2023/03/25/ad2186-matthias-leidingers-photographic-exploration-of-awe-and-wonder/",
+    url: "https://www.ignant.com/2023/03/25/ad2186-matthias-leidingers-photographic-exploration-of-awe-and-wonder/",
     color: "#C2491D"
   },
 ]

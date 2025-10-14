@@ -54,10 +54,14 @@ function Menu() {
       {/* menu-bar */}
       <div className="menu-bar">
         <div className="menu-logo">
-          <a href="/">JACK CORLESS</a>
+          <a
+            className="menu-a"
+            href="/"
+          >
+            JACK CORLESS</a>
         </div>
         <div className="menu-open" onClick={toggleMenu}>
-          <p>Menu</p>
+          <p className="menu-p">Menu</p>
         </div>
       </div>
 
@@ -66,23 +70,34 @@ function Menu() {
         {/* menu-overlay-bar */}
         <div className="menu-overlay-bar">
           <div className="menu-logo">
-            <a href="/">JACK CORLESS</a>
+            <a
+              className="menu-a"
+              href="/"
+            >
+              JACK CORLESS</a>
           </div>
           <div className="menu-close">
-            <p onClick={toggleMenu}>Close</p>
+            <p
+              className="menu-p"
+              onClick={toggleMenu}
+            >
+              Close</p>
           </div>
         </div>
 
         {/* menu overlay items */}
         <div className="menu-close-icon" onClick={toggleMenu}>
-          <p>&#x2715;</p>
+          <p className="menu-p">&#x2715;</p>
         </div>
         <div className="menu-copy">
           <div className="menu-links">
             {menuLinks.map((link, index) => (
               <div key={index} className="menu-link-item">
                 <div className="menu-link-item-holder" onClick={toggleMenu}>
-                  <a className="menu-link" href={link.path}>
+                  <a
+                    className="menu-link menu-a"
+                    href={link.path}
+                  >
                     {link.label}
                   </a>
                 </div>
@@ -91,18 +106,30 @@ function Menu() {
           </div>
           <div className="menu-info">
             <div className="menu-info-col">
-              <a href="#">LinkedIn &#8599;</a>
-              <a href="#">GitHub &#8599;</a>
-              <a href="#">Resume &#8599;</a>
+              <a
+                className="menu-a"
+                href="#"
+              >
+                LinkedIn &#8599;</a>
+              <a
+                className="menu-a"
+                href="#"
+              >
+                GitHub &#8599;</a>
+              <a
+                className="menu-a"
+                href="#"
+              >
+                Resume &#8599;</a>
             </div>
             <div className="menu-info-col">
-              <p>jackdcorless@proton.me</p>
-              <p>+61 437 128 864</p>
+              <p className="menu-p">jackdcorless@proton.me</p>
+              <p className="menu-p">+61 437 128 864</p>
             </div>
           </div>
         </div>
         <div className="menu-preview">
-          <p>Melbourne, 00:00:00</p>
+          <p className="menu-p">Melbourne, 00:00:00</p>
         </div>
       </div>
     </nav>

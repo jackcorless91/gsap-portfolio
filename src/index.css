@@ -12,8 +12,8 @@ body {
   background: black;
 }
 
-a,
-p {
+.menu-a,
+.menu-p {
     color: #000;
     text-decoration: none;
     text-transform: uppercase;
