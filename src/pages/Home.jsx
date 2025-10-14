@@ -1,6 +1,6 @@
 import Menu from "@/components/Menu.jsx";
 import React from "react";
-import About from "@/components/About.jsx";
+import IndexContent from "@/components/IndexContent.jsx";
 
 function Home() {
   return (
@@ -11,7 +11,7 @@ function Home() {
           </h1>
         </div>
 
-        <About />
+        <IndexContent />
       </main>
   );
 }
