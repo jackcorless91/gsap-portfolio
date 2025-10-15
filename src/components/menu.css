@@ -90,7 +90,7 @@
     justify-content: flex-end;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 640px) {
     .menu-close-icon {
         display: none;
     }
@@ -106,5 +106,8 @@
     .menu-bar,
     .menu-overlay-bar {
         padding: 1.5em;
+    }
+    .menu-preview {
+        display: none;
     }
 }

@@ -7,9 +7,19 @@
     -webkit-font-smoothing: antialiased;
 }
 
+/* hide scroll bar firefox */
+.description {
+    scrollbar-width: none;
+}
+
 body {
  font-family: "Oswald";
   background: black;
+}
+
+/* hide scrollbar webkit based browsers*/
+.description::-webkit-scrollbar {
+    display: none;
 }
 
 .menu-a,
