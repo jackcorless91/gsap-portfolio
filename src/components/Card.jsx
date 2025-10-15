@@ -2,15 +2,16 @@ import React from 'react';
 
 
 
-function Card({ title, technologies, description, src, github, url, color }) {
+function Card({i, title, technologies, description, src, github, url, color }) {
   return (
     <div className="min-h-screen flex justify-center items-center sticky top-0">
       <div
-        className="w-4xl max-w-[80%] h-100 relative top-[-10%] rounded-2xl grid grid-rows-[25%_75%] max-sm:grid-rows-[30%_70%]"
-        style={{ backgroundColor: color }}
+        className="w-4xl max-w-[80%] h-[30vh] min-h-100 relative -translate-y-[10%] rounded-2xl grid grid-rows-[25%_75%] max-sm:grid-rows-[30%_70%]"
+        style={{
+          backgroundColor: color,
+          top: `calc(-10% + ${i * 25}px)`
+        }}
       >
-        {/* responsive updates to be made: md screens shrink scaling of card content
-            small screens remove image and use same title size */}
         {/* title container */}
         <div className="flex flex-col items-center justify-center">
           <h2 className="font-semibold tracking-tight uppercase text-center text-4xl max-sm:text-3xl">{ title }</h2>

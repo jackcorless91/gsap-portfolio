@@ -7,7 +7,7 @@ function ProjectsContent() {
   return (
     <section className="min-h-[calc(100vh-4.5rem)] md:min-h-[calc(100vh-5.5rem)] ">
       { projects.map((projects, index) => {
-        return <Card key={ index } { ...projects } />
+        return <Card key={ index } i={ index } { ...projects } />
       })}
     </section>
   );

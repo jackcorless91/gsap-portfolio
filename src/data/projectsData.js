@@ -8,6 +8,7 @@ export const projects = [
     url: "https://www.ignant.com/2023/03/25/ad2186-matthias-leidingers-photographic-exploration-of-awe-and-wonder/",
     color: "#9F9F9F"
   },
+  // correct urls and github link to be added
   {
     title: "Social Media Web App",
     technologies: "Next.js, React, Tailwind, Clerk, Prisma, UploadThing, Neon etc...",
