@@ -6,10 +6,10 @@ function Card({i, title, technologies, description, src, github, url, color }) {
   return (
     <div className="min-h-screen flex justify-center items-center sticky top-0">
       <div
-        className="w-4xl max-w-[80%] h-[30vh] min-h-100 relative -translate-y-[10%] rounded-2xl grid grid-rows-[25%_75%] max-sm:grid-rows-[30%_70%]"
+        className="w-4xl max-w-[80%] h-[30vh] min-h-100 absolute -translate-y-[10%] rounded-2xl grid grid-rows-[25%_75%] max-sm:grid-rows-[30%_70%]"
         style={{
           backgroundColor: color,
-          top: `calc(-10% + ${i * 25}px)`
+          top: `calc(35% + ${i * 24}px)`
         }}
       >
         {/* title container */}
