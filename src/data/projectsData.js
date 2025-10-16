@@ -21,7 +21,17 @@ export const projects = [
   {
 
     title: "This Portfolio website",
-    technologies: "React, Vite, GSAP, Tailwind, Browser Router etc...",
+    technologies: "React, Vite, GSAP, Framer Motion, Tailwind, Browser Router etc...",
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque et, itaque, modi molestias nesciunt officia perspiciatis placeat ratione sunt temporibus ullam vitae voluptatibus? Amet eius explicabo mollitia nesciunt quibusdam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque et adipisicing.",
+    src: "water.jpg",
+    github: "https://www.ignant.com/2023/03/25/ad2186-matthias-leidingers-photographic-exploration-of-awe-and-wonder/",
+    url: "https://www.ignant.com/2023/03/25/ad2186-matthias-leidingers-photographic-exploration-of-awe-and-wonder/",
+    color: "#FF2727"
+  },
+  {
+
+    title: "next project",
+    technologies: "technologies...",
     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque et, itaque, modi molestias nesciunt officia perspiciatis placeat ratione sunt temporibus ullam vitae voluptatibus? Amet eius explicabo mollitia nesciunt quibusdam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque et adipisicing.",
     src: "water.jpg",
     github: "https://www.ignant.com/2023/03/25/ad2186-matthias-leidingers-photographic-exploration-of-awe-and-wonder/",

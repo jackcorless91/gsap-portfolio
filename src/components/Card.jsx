@@ -1,13 +1,17 @@
 import React from 'react';
+import { motion, useTransform } from "framer-motion";
 
 
+function Card({i, title, technologies, description, src, github, url, color, progress, range, targetScale }) {
 
-function Card({i, title, technologies, description, src, github, url, color }) {
+  const scale = useTransform(progress, range, [1, targetScale])
+
   return (
     <div className="min-h-screen flex justify-center items-center sticky top-0">
-      <div
-        className="w-4xl max-w-[80%] h-[30vh] min-h-100 absolute -translate-y-[10%] rounded-2xl grid grid-rows-[25%_75%] max-sm:grid-rows-[30%_70%]"
+      <motion.div
+        className="card-container w-4xl max-w-[80%] h-[35vh] min-h-100 absolute -translate-y-[10%] rounded-2xl grid grid-rows-[25%_75%] max-sm:grid-rows-[30%_70%]"
         style={{
+          scale,
           backgroundColor: color,
           top: `calc(35% + ${i * 24}px)`
         }}
@@ -57,7 +61,7 @@ function Card({i, title, technologies, description, src, github, url, color }) {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 }
