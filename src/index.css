@@ -17,6 +17,14 @@ body {
   background: black;
 }
 
+.hover-line-a {
+
+}
+
+.hover-line-span {
+
+}
+
 /* hide scrollbar webkit based browsers*/
 .description::-webkit-scrollbar {
     display: none;
@@ -29,7 +37,8 @@ body {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 500;
-    line-height: 100%;
+    line-height: 115%;
+    margin-top: 2px;
 }
 
 .page-title {

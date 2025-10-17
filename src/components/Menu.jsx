@@ -106,11 +106,21 @@ function Menu() {
           </div>
           <div className="menu-info">
             <div className="menu-info-col">
+              {/*<a*/}
+              {/*  className="menu-a"*/}
+              {/*  href="#"*/}
+              {/*>*/}
+              {/*  LinkedIn &#8599;</a>*/}
               <a
-                className="menu-a"
                 href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="menu-a m-6 group relative w-max cursor-pointer"
               >
-                LinkedIn &#8599;</a>
+                <span> LinkedIn &#8599;</span>
+                <span className="absolute -bottom-0.25 left-0 w-0 h-0.5 bg-black transition-all group-hover:w-full"></span>
+              </a>
+              {/* adjust to css with so many buttons */}
               <a
                 className="menu-a"
                 href="#"
@@ -131,6 +141,15 @@ function Menu() {
         <div className="menu-preview">
           <p className="menu-p">Melbourne, 00:00:00</p>
         </div>
+        <a
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="menu-a m-6 group relative w-max cursor-pointer"
+        >
+          <span> LinkedIn &#8599;</span>
+          <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-black transition-all group-hover:w-full"></span>
+        </a>
       </div>
     </nav>
   );

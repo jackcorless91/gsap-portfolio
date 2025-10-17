@@ -18,7 +18,7 @@ function ProjectsContent() {
   return (
     <section
       ref={ container }
-      className="min-h-[calc(100vh-4.5rem)] md:min-h-[calc(100vh-5.5rem)] ">
+      className="min-h-[calc(100vh-4.5rem) md:min-h-[calc(100vh-5.5rem)] ">
       { projects.map((project, index) => {
         const targetScale = 1 - ((projects.length - index) * 0.05);
         return <Card

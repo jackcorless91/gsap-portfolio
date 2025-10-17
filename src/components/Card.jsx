@@ -13,7 +13,7 @@ function Card({i, title, technologies, description, src, github, url, color, pro
         style={{
           scale,
           backgroundColor: color,
-          top: `calc(35% + ${i * 24}px)`
+          top: `calc(30% + ${i * 24}px)`
         }}
       >
         {/* title container */}
@@ -38,7 +38,7 @@ function Card({i, title, technologies, description, src, github, url, color, pro
                   className="m-6 group relative w-max cursor-pointer"
                 >
                   <span>Github Code</span>
-                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-black transition-all group-hover:w-full"></span>
+                  <span className="absolute -bottom-0.5 left-0 w-0 h-0.5 bg-black transition-all group-hover:w-full"></span>
                 </a>
                 <a
                   href={ url }
