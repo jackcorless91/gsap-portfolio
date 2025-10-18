@@ -17,14 +17,6 @@ body {
   background: black;
 }
 
-.hover-line-a {
-
-}
-
-.hover-line-span {
-
-}
-
 /* hide scrollbar webkit based browsers*/
 .description::-webkit-scrollbar {
     display: none;
@@ -58,6 +50,36 @@ body {
   font-size: 1.5vw;
   letter-spacing: 0;
 }
+
+
+
+.hover-line-a {
+    position: relative;
+    display: inline-block; /* ensures width wraps only content */
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hover-line-text {
+    position: relative;
+    z-index: 1;
+}
+
+.hover-line-span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 0;
+    background-color: black;
+    transition: width 0.3s ease;
+    z-index: 0;
+}
+
+.hover-line-a:hover .hover-line-span {
+    width: 100%;
+}
+
 
 @media(max-width: 768px) {
   .page-content h1 {
