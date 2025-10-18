@@ -9,7 +9,7 @@ function Card({i, title, technologies, description, src, github, url, color, pro
   return (
     <div className="min-h-screen flex justify-center items-center sticky top-0">
       <motion.div
-        className="card-container w-4xl max-w-[80%] h-[35vh] min-h-100 absolute -translate-y-[10%] rounded-2xl grid grid-rows-[25%_75%] max-sm:grid-rows-[30%_70%]"
+        className="card-container w-4xl max-w-[80%] h-[32vh] min-h-100 absolute -translate-y-[10%] rounded-2xl grid grid-rows-[25%_75%] max-sm:grid-rows-[30%_70%]"
         style={{
           scale,
           backgroundColor: color,
