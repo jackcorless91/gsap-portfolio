@@ -15,7 +15,15 @@
 body {
  font-family: "Oswald";
   background: black;
+    -ms-overflow-style: none;
+/*    who actually uses edge lol ?? dear 3 users, you're welcome, no more visible scrollbar <3 */
 }
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
 
 /* hide scrollbar webkit based browsers*/
 .description::-webkit-scrollbar {
