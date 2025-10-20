@@ -13,7 +13,7 @@ function ContactContent() {
       {/*        type="text"*/}
       {/*        id="name"*/}
       {/*        name="name"*/}
-      {/*        className="bg-transparent border-0 border-b-[0.5px] border-white text-white placeholder-white focus:outline-none focus:ring-0"*/}
+      {/*        className=" border-0 border-b-[0.5px] border-white text-white  focus:outline-none focus:ring-0"*/}
       {/*      />*/}
       {/*      <label htmlFor="phone">Phone*</label>*/}
       {/*      <input*/}
