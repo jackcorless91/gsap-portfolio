@@ -15,7 +15,7 @@ function ContactForm() {
               className="w-full h-10 bg-transparent border-0 border-b-[0.5px] border-white text-white focus:outline-none focus:ring-0"
               placeholder="Enter your name"
               required
-
+            />
           </div>
 
           <div className="">
@@ -50,9 +50,16 @@ function ContactForm() {
           </div>
         </div>
 
-        <button type="submit" className="mt-6">Connect</button>
+        <div className="flex justify-center items-center text-2xl">
+          <button
+            type="submit"
+            className="group relative mt-6 uppercase font-medium tracking-tight text-white cursor-pointer"
+          >
+            <span>Connect</span>
+            <span className="absolute left-0 -bottom-0.5 h-0.5 w-0 bg-white transition-all duration-300 group-hover:w-full"></span>
+          </button>
+        </div>
       </form>
-
     </div>
   );
 }
