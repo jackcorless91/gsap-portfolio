@@ -29,9 +29,9 @@ function ContactForm() {
     return (
     <div className="text-white">
       <form onSubmit={ onSubmit }>
-        <h2 className="text-7xl uppercase tracking-tight font-medium text-center mb-8">Let's Connect.</h2>
+        <h2 className="text-7xl uppercase tracking-tight font-medium text-center mb-8 max-sm:text-5xl max-sm:mb-4">Let's Connect.</h2>
 
-        <div className="flex flex-col space-y-6">
+        <div className="flex flex-col space-y-6 max-sm:space-y-3">
           <div className="">
             <label htmlFor="name">Name*</label>
             <input
