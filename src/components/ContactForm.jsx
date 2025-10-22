@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import {isSession} from "react-router";
 
 function ContactForm() {
     const [result, setResult] = useState("");

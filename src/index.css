@@ -44,6 +44,10 @@ body::-webkit-scrollbar {
     margin-top: 2px;
 }
 
+.menu-pf, .menu-af {
+    color: white;
+}
+
 .page-title {
   position: absolute;
   top: 50%;

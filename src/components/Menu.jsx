@@ -110,7 +110,7 @@ function Menu() {
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="menu-a m-6 group relative w-max cursor-pointer"
+                className="menu-a m-[2px] group relative w-max cursor-pointer"
               >
                 <span> LinkedIn &#8599;</span>
                 <span className="absolute -bottom-0.25 left-0 w-0 h-0.5 bg-black transition-all group-hover:w-full"></span>
@@ -120,7 +120,7 @@ function Menu() {
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="menu-a m-6 group relative w-max cursor-pointer"
+                className="menu-a m-[2px] group relative w-max cursor-pointer"
               >
                 <span>GitHub &#8599;</span>
                 <span className="absolute -bottom-0.25 left-0 w-0 h-0.5 bg-black transition-all group-hover:w-full"></span>
@@ -129,7 +129,7 @@ function Menu() {
                 href="#"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="menu-a m-6 group relative w-max cursor-pointer"
+                className="menu-a m-[2px] group relative w-max cursor-pointer"
               >
                 <span>Resume &#8599;</span>
                 <span className="absolute -bottom-0.25 left-0 w-0 h-0.5 bg-black transition-all group-hover:w-full"></span>
