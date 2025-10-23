@@ -44,7 +44,7 @@ body::-webkit-scrollbar {
     margin-top: 2px;
 }
 
-footer .menu-a, .menu-p {
+footer .menu-a, footer .menu-p {
     color: white;
 }
 
