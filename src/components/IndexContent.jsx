@@ -20,11 +20,11 @@ function IndexContent() {
           </div>
 
         </div>
-        <div className="w-80 h-full flex justify-center items-center">
-          <div className="bg-white h-[85%] w-[85%] flex justify-center items-center">
-            <div className="text-black">photo</div>
-          </div>
-        </div>
+        {/*<div className="w-80 h-full flex justify-center items-center">*/}
+        {/*  <div className="bg-white h-[85%] w-[85%] flex justify-center items-center">*/}
+        {/*    <div className="text-black">photo</div>*/}
+        {/*  </div>*/}
+        {/*</div>*/}
       </div>
       <div>other ?</div>
     </section>

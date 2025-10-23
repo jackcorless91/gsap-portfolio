@@ -9,10 +9,10 @@ function Card({i, title, technologies, description, src, github, url, color, pro
   return (
     <div className="min-h-screen flex justify-center items-center sticky top-0">
       <motion.div
-        className="card-container w-4xl max-w-[80%] h-[32vh] min-h-100 absolute -translate-y-[10%] rounded-2xl grid grid-rows-[25%_75%] max-sm:grid-rows-[30%_70%]"
+        className="card-container w-4xl max-w-[80%] h-[32vh] min-h-100 absolute -translate-y-[10%] rounded-2xl grid grid-rows-[25%_75%] max-sm:grid-rows-[30%_70%] bg-black border border-solid border-gray-400 text-white"
         style={{
           scale,
-          backgroundColor: color,
+          // backgroundColor: color,
           top: `calc(30% + ${i * 24}px)`
         }}
       >
@@ -53,7 +53,7 @@ function Card({i, title, technologies, description, src, github, url, color, pro
             </div>
           </div>
           <div className="flex items-start justify-center max-sm:hidden">
-            <div className="w-[80%] h-[90%] rounded-2xl bg-black">
+            <div className="w-[80%] h-[90%] rounded-2xl bg-white">
               <img
                 src={ src }
                 alt="image"
