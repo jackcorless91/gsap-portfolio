@@ -25,7 +25,7 @@ function Menu() {
   const tl = useRef();
 
   useGSAP(() => {
-    gsap.set(".menu-link-item-holder", { y:25 });
+    gsap.set(".menu-link-item-holder", { y:75 });
 
     tl.current = gsap.timeline({ paused: true })
       .to(".menu-overlay", {

@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import Card from "@/components/Card.jsx";
 import { projects } from "@/data/projectsData.js";
 import { motion, useScroll } from "framer-motion"
+import Footer from "@/components/Footer.jsx";
 
 
 function ProjectsContent() {
@@ -14,11 +15,10 @@ function ProjectsContent() {
   });
   console.log(scrollYProgress); // Inside ProjectsContent
 
-
   return (
     <section
       ref={ container }
-      className="min-h-[calc(100vh-4.5rem) md:min-h-[calc(100vh-5.5rem)] ">
+      className="min-h-[calc(100vh-4.5rem-5.75rem)] md:min-h-[calc(100vh-5.5rem-5.75rem)]">
       { projects.map((project, index) => {
         const targetScale = 1 - ((projects.length - index) * 0.05);
         return <Card
@@ -29,6 +29,7 @@ function ProjectsContent() {
           targetScale={ targetScale }
         />
       })}
+      <Footer />
     </section>
   );
 }
