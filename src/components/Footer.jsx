@@ -1,4 +1,5 @@
 import React from 'react';
+import LiveClock from "@/components/LiveClock.jsx";
 
 function Footer() {
   return (
@@ -40,7 +41,9 @@ function Footer() {
         </div>
       </div>
       <div className="flex items-start mt-9 min-w-[187.3px] max-sm:hidden">
-        <div className="menu-p text-nowrap flex items-start mt-9">Melbourne 00:00:00</div>
+        <div className="menu-p text-nowrap flex items-start mt-9">
+          <LiveClock />
+        </div>
       </div>
     </footer>
   );

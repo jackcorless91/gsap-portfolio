@@ -31,8 +31,9 @@ function ContactForm() {
         <h2 className="text-7xl uppercase tracking-tight font-medium text-center mb-8 max-sm:text-5xl max-sm:mb-4">Let's Connect.</h2>
 
         <div className="flex flex-col space-y-6 max-sm:space-y-3">
+
           <div className="">
-            <label htmlFor="name">Name*</label>
+            <label htmlFor="name" className="uppercase tracking-tight font-medium">Name*</label>
             <input
               type="text"
               id="name"
@@ -44,7 +45,7 @@ function ContactForm() {
           </div>
 
           <div className="">
-            <label htmlFor="number">Number*</label>
+            <label htmlFor="number" className="uppercase tracking-tight font-medium">Number*</label>
             <input
               type="text"
               id="number"
@@ -55,7 +56,7 @@ function ContactForm() {
           </div>
 
           <div className="">
-            <label htmlFor="email">Email*</label>
+            <label htmlFor="email" className="uppercase tracking-tight font-medium">Email*</label>
             <input
               type="text"
               id="email"
@@ -67,7 +68,7 @@ function ContactForm() {
           </div>
 
           <div className="">
-            <label htmlFor="message">Message*</label>
+            <label htmlFor="message" className="uppercase tracking-tight font-medium">Message*</label>
             <textarea
               id="message"
               name="message"

@@ -5,6 +5,7 @@ import "./menu.css"
 
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
+import LiveClock from "@/components/LiveClock.jsx";
 
 const menuLinks = [
   { path: "/", label: "#Hero" },
@@ -142,7 +143,9 @@ function Menu() {
           </div>
         </div>
         <div className="menu-preview">
-          <p className="menu-p">Melbourne 00:00:00</p>
+          <p className="menu-p">
+            <LiveClock />
+          </p>
         </div>
       </div>
     </nav>
