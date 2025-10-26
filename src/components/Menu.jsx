@@ -13,42 +13,51 @@ const menuLinks = [
   { path: "/contact", label: "#Contact" },
 ];
 
-
 function Menu() {
-  const container = useRef();
+  const container = useRef(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
-
   const tl = useRef();
 
-  useGSAP(() => {
-    gsap.set(".menu-link-item-holder", { y:75 });
+  const toggleMenu = () => setIsMenuOpen((v) => !v);
 
-    tl.current = gsap.timeline({ paused: true })
-      .to(".menu-overlay", {
-        duration: 1.25,
-        clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
-        ease: "power4.inOut",
-      })
-      .to("menu-link-item-holder", {
-        y: 0,
-        duration: 1,
-        stagger: 0.1,
-        ease: "power4.inOut",
-        delay: -0.75,
-      });
-  }, { scope: container })
+  useGSAP(
+    () => {
+      // scoped selector so queries only run inside this container
+      const q = gsap.utils.selector(container);
+
+      // initial state
+      gsap.set(q(".menu-link-item-holder"), { y: 120 });
+
+      // build timeline — note the corrected selector (with .) and "-=0.75" position
+      tl.current = gsap
+        .timeline({ paused: true })
+        .to(
+          q(".menu-overlay"),
+          {
+            duration: 1.25,
+            clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
+            ease: "power4.inOut",
+          }
+        )
+        .to(
+          q(".menu-link-item-holder"),
+          {
+            y: 0,
+            duration: 1.1,
+            stagger: 0.1,
+            ease: "power4.out",
+          },
+          "-=0.75" // START this tween 0.75s before the previous tween finishes
+        );
+    },
+    { scope: container }
+  );
 
   useEffect(() => {
-    if (isMenuOpen) {
-      tl.current.play()
-    } else {
-      tl.current.reverse()
-    }
-  }, [isMenuOpen])
+    if (!tl.current) return;
+    if (isMenuOpen) tl.current.play();
+    else tl.current.reverse();
+  }, [isMenuOpen]);
 
   return (
     <nav className="menu-container" ref={container}>
