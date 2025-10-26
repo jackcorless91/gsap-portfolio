@@ -4,7 +4,7 @@ import ContactContent from "@/components/ContactContent.jsx";
 function Contact() {
   return (
     <main>
-      <div className="min-h-screen">
+      <div className="min-h-screen hero">
         <h1 className="page-title">
         Contact <sup>(03)</sup>
         </h1>

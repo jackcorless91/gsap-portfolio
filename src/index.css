@@ -10,6 +10,15 @@
     }
 }
 
+.page-content {
+
+}
+
+.hero {
+    background: url("./assets/hero.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
+
 /* hide scroll bar firefox */
 .description {
     scrollbar-width: none;
@@ -25,8 +34,6 @@ body {
 body::-webkit-scrollbar {
     display: none;
 }
-
-
 
 /* hide scrollbar webkit based browsers*/
 .description::-webkit-scrollbar {
@@ -69,8 +76,6 @@ footer .menu-a, footer .menu-p {
   font-size: 1.5vw;
   letter-spacing: 0;
 }
-
-
 
 .hover-line-a {
     position: relative;

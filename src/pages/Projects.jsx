@@ -5,7 +5,7 @@ import Footer from "@/components/Footer.jsx";
 function Projects() {
   return (
     <main>
-      <div className="min-h-screen">
+      <div className="min-h-screen hero">
         <h1 className="page-title">
         Projects <sup>(02)</sup>
         </h1>

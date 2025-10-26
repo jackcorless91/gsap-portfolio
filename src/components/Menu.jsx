@@ -22,13 +22,11 @@ function Menu() {
 
   useGSAP(
     () => {
-      // scoped selector so queries only run inside this container
       const q = gsap.utils.selector(container);
 
       // initial state
       gsap.set(q(".menu-link-item-holder"), { y: 120 });
 
-      // build timeline — note the corrected selector (with .) and "-=0.75" position
       tl.current = gsap
         .timeline({ paused: true })
         .to(
@@ -47,7 +45,7 @@ function Menu() {
             stagger: 0.1,
             ease: "power4.out",
           },
-          "-=0.75" // START this tween 0.75s before the previous tween finishes
+          "-=0.75"
         );
     },
     { scope: container }
