@@ -3,7 +3,7 @@ import Footer from "@/components/Footer.jsx";
 
 function IndexContent() {
   return (
-    <section className="min-h-[calc(100vh-4.5rem-5.75rem)] md:min-h-[calc(100vh-5.5rem-5.75rem)] text-white grid grid-rows-3 gap-1 pt-8">
+    <section className="min-h-screen text-white grid grid-rows-3 gap-1 pt-8">
       <div className="text-[11.5vw] w-screen tracking-tight uppercase text-center font-medium">Software developer</div>
       {/* add sm screen for font, wrap to second line ? */}
       <div className="flex justify-center items-center">
