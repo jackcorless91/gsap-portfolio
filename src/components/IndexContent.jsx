@@ -12,7 +12,7 @@ function IndexContent() {
             im jack
           </div>
           <div className="flex justify-center items-center text-center text-[]">
-            a software developer from Melbourne specialising in Javascript/typescript, with experience in python & golang.
+            a software developer from Melbourne specialising in Javascript/Typescript and Python with experience in testing.
           </div>
           <div className="flex justify-between items-center">
             <button className="uppercase">view my work</button>
