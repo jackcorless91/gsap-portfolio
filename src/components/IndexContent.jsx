@@ -3,34 +3,14 @@ import Footer from "@/components/Footer.jsx";
 
 function IndexContent() {
   return (
-    <section className="min-h-screen text-white grid grid-rows-3 gap-1 pt-8">
-      <div className="text-[11.5vw] w-screen tracking-tight uppercase text-center font-medium">Software developer</div>
-      {/* add sm screen for font, wrap to second line ? */}
-      <div className="flex justify-center items-center">
-        <div className="w-80 h-full grid grid-rows-[25%_50%_25%]">
-          <div className="flex justify-end text-center flex-col tracking-tight uppercase text-6xl">
-            im jack
-          </div>
-          <div className="flex justify-center items-center text-center text-[]">
-            a software developer from Melbourne specialising in Javascript/Typescript and Python with experience in testing.
-          </div>
-          <div className="flex justify-between items-center">
-            <button className="uppercase">view my work</button>
-            <button className="uppercase">get in touch</button>
-          {/* add animations and styling on buttons */}
-          </div>
-
-        </div>
-        {/*<div className="w-80 h-full flex justify-center items-center">*/}
-        {/*  <div className="bg-white h-[85%] w-[85%] flex justify-center items-center">*/}
-        {/*    <div className="text-black">photo</div>*/}
-        {/*  </div>*/}
-        {/*</div>*/}
-      </div>
-      <div>other ?</div>
+    <div className="min-h-screen flex flex-col">
+      <section className="flex-1 text-white grid grid-rows-[30%_40%_30%]">
+        <div>top</div>
+        <div>content</div>
+        <div>bottom</div>
+      </section>
       <Footer />
-    </section>
-
+    </div>
   );
 }
 
