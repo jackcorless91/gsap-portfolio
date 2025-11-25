@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import { motion, useMotionValue, useSpring } from "framer-motion";
 
+// this is my failed attempt at making a tooltip that follows the mouse around on the landing of each page, decided to leave out. made with motion
+
 function CursorHint() {
   const x = useMotionValue(0);
   const y = useMotionValue(0);
