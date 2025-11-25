@@ -10,25 +10,25 @@ const menuLinks = [
 function IndexContent() {
   return (
     <div className="min-h-screen flex flex-col">
-      <section className="flex-1 text-white grid grid-rows-[35%_40%_25%]">
-        <div>top</div>
-        <div className="grid grid-cols-2">
+      <section className="flex-1 text-white grid grid-rows-[33%_40%_28%]">
+        <div></div>
+        <div className="grid grid-cols-2 max-sm:grid-cols-none">
 
-          <div className="grid grid-rows-2 border">
+          <div className="grid grid-rows-2">
             <div className="flex flex-col justify-center items-center">
               <div>
-                <div className="text">hi, im jack</div>
-                <div>software developer</div>
+                <div className="uppercase font-medium text-3xl tracking-tight max-sm:text-2xl">hi, im jack</div>
+                <div className="uppercase font-medium text-7xl tracking-tight max-lg:text-5xl max-sm:text-4xl">software developer</div>
               </div>
             </div>
-            <div className="border grid grid-rows-2">
+            <div className="grid grid-rows-2">
               <div className="flex items-center justify-center">
-                <div className="text-center w-[80%]">
+                <div className="text-center w-[80%] max-w-2xl uppercase font-medium tracking-tight">
                   Software developer from Melbourne specialising in JavaScript/TypeScript and Python, with experience in testing and DevOps.
                 </div>
               </div>
               <div className="flex justify-center items-center">
-                <div className="w-[50%]">
+                <div className="w-[50%] max-w-md">
                   <div className="flex justify-between">
                     <button
                       type="submit"
@@ -51,11 +51,11 @@ function IndexContent() {
             </div>
           </div>
 
-          <div className="border flex flex-col justify-center items-center">
-            <div>
-              <div>#hero</div>
-              <div>#projects</div>
-              <div>#contact</div>
+          <div className="flex flex-col justify-center items-center max-sm:hidden">
+            <div className="text-6xl uppercase tracking-tight">
+              <div className="cursor-pointer transition-colors duration-300 ease-in-out hover:text-[#FF2727]">#hero</div>
+              <div className="cursor-pointer transition-colors duration-300 ease-in-out hover:text-[#FF2727]">#projects</div>
+              <div className="cursor-pointer transition-colors duration-300 ease-in-out hover:text-[#FF2727]">#contact</div>
             </div>
           </div>
         </div>
