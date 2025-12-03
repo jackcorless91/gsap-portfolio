@@ -10,32 +10,32 @@ function Footer() {
           href="#"
           target="_blank"
           rel="noopener noreferrer"
-          className="menu-a m-[3px] group relative w-max cursor-pointer"
+          className="menu-a m-[4px] group relative w-max cursor-pointer"
         >
-          <span> LinkedIn &#8599;</span>
-          <span className="absolute -bottom-0.25 left-0 w-0 h-0.5 bg-black transition-all group-hover:w-full"></span>
+          <span>LinkedIn &#8599;</span>
+          <span className="absolute -bottom-0.25 left-0 w-0 h-0.25 bg-white transition-all duration-300 group-hover:w-full"></span>
         </a>
         <a
           href="#"
           target="_blank"
           rel="noopener noreferrer"
-          className="menu-a  m-[3px] group relative w-max cursor-pointer"
+          className="menu-a  m-[4px] group relative w-max cursor-pointer"
         >
           <span>GitHub &#8599;</span>
-          <span className="absolute -bottom-0.25 left-0 w-0 h-0.5 bg-black transition-all group-hover:w-full"></span>
+          <span className="absolute -bottom-0.25 left-0 w-0 h-0.25 bg-white transition-all group-hover:w-full"></span>
         </a>
         <a
           href="#"
           target="_blank"
           rel="noopener noreferrer"
-          className="menu-a foot m-[3px] group relative w-max cursor-pointer"
+          className="menu-a foot m-[4px] group relative w-max cursor-pointer"
         >
           <span>Resume &#8599;</span>
-          <span className="absolute -bottom-0.25 left-0 w-0 h-0.5 bg-black transition-all group-hover:w-full"></span>
+          <span className="absolute -bottom-0.25 left-0 w-0 h-0.25 bg-white transition-all group-hover:w-full"></span>
         </a>
       </div>
       <div className="min-w-[187.3px]">
-        <div className="menu-info-col gap-[1px] mt-5">
+        <div className="menu-info-col gap-[2px] mt-5">
           <p className="menu-p">jackdcorless@proton.me</p>
           <p className="menu-p">+61 437 128 864</p>
         </div>

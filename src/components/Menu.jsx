@@ -120,8 +120,8 @@ function Menu() {
                 rel="noopener noreferrer"
                 className="menu-a m-[2px] group relative w-max cursor-pointer"
               >
-                <span> LinkedIn &#8599;</span>
-                <span className="absolute -bottom-0.25 left-0 w-0 h-0.5 bg-black transition-all group-hover:w-full"></span>
+                <span>LinkedIn &#8599;</span>
+                <span className="absolute -bottom-0.25 left-0 w-0 h-0.5 bg-black transition-all duration-300 group-hover:w-full"></span>
               </a>
               {/* adjust to css with so many buttons */}
               <a
