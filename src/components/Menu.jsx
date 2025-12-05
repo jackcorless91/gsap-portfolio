@@ -115,7 +115,7 @@ function Menu() {
           <div className="menu-info">
             <div className="menu-info-col">
               <a
-                href="#"
+                href="https://linkedin.com/in/jack-corless-a91411295"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="menu-a m-[2px] group relative w-max cursor-pointer"
@@ -125,7 +125,7 @@ function Menu() {
               </a>
               {/* adjust to css with so many buttons */}
               <a
-                href="#"
+                href="https://github.com/jackcorless91"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="menu-a m-[2px] group relative w-max cursor-pointer"

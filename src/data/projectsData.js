@@ -3,19 +3,18 @@ export const projects = [
     title: "Workplace Managment System",
     technologies: "Python, Flask, Django, Marshmallow etc...",
     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque et, itaque, modi molestias nesciunt officia perspiciatis placeat ratione sunt temporibus ullam vitae voluptatibus? Amet eius explicabo mollitia nesciunt quibusdam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque et adipisicing.",
-    src: "rock.jpg",
-    github: "https://www.ignant.com/2023/03/25/ad2186-matthias-leidingers-photographic-exploration-of-awe-and-wonder/",
-    url: "https://www.ignant.com/2023/03/25/ad2186-matthias-leidingers-photographic-exploration-of-awe-and-wonder/",
+    src: "",
+    github: "https://github.com/jackcorless91/workplace_app",
+    url: "https://github.com/jackcorless91/workplace_app",
     color: "#9F9F9F"
   },
-  // correct urls and github link to be added
   {
     title: "Social Media Web App",
     technologies: "Next.js, React, Tailwind, Clerk, Prisma, UploadThing, Neon etc...",
     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque et, itaque, modi molestias nesciunt officia perspiciatis placeat ratione sunt temporibus ullam vitae voluptatibus? Amet eius explicabo mollitia nesciunt quibusdam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque et adipisicing.",
-    src: "tree.jpg",
-    github: "https://www.ignant.com/2023/03/25/ad2186-matthias-leidingers-photographic-exploration-of-awe-and-wonder/",
-    url: "https://www.ignant.com/2023/03/25/ad2186-matthias-leidingers-photographic-exploration-of-awe-and-wonder/",
+    src: "",
+    github: "https://github.com/jackcorless91/social-media",
+    url: "https://social-media-nine-mauve.vercel.app/",
     color: "#AFAFAF"
   },
   {
@@ -23,19 +22,19 @@ export const projects = [
     title: "This Portfolio website",
     technologies: "React, Vite, GSAP, Framer Motion, Tailwind, Browser Router etc...",
     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque et, itaque, modi molestias nesciunt officia perspiciatis placeat ratione sunt temporibus ullam vitae voluptatibus? Amet eius explicabo mollitia nesciunt quibusdam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque et adipisicing.",
-    src: "water.jpg",
-    github: "https://www.ignant.com/2023/03/25/ad2186-matthias-leidingers-photographic-exploration-of-awe-and-wonder/",
-    url: "https://www.ignant.com/2023/03/25/ad2186-matthias-leidingers-photographic-exploration-of-awe-and-wonder/",
+    src: "",
+    github: "https://github.com/jackcorless91/gsap-portfolio",
+    url: "",
     color: "#FF2727"
   },
   {
 
-    title: "next project",
-    technologies: "technologies...",
-    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque et, itaque, modi molestias nesciunt officia perspiciatis placeat ratione sunt temporibus ullam vitae voluptatibus? Amet eius explicabo mollitia nesciunt quibusdam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab eaque et adipisicing.",
-    src: "water.jpg",
-    github: "https://www.ignant.com/2023/03/25/ad2186-matthias-leidingers-photographic-exploration-of-awe-and-wonder/",
-    url: "https://www.ignant.com/2023/03/25/ad2186-matthias-leidingers-photographic-exploration-of-awe-and-wonder/",
+    title: "Current Project: Leetcode",
+    technologies: "Leetcode, JavaScript, Python, Stress",
+    description: "After creating a few larger projects like the social media web app and this portfolio website I'm now working on Leetcode. For every Leetcode question I solve I put detailed notes of what I did and how I did it in the Github repo linked below. Breaking down my thought process and usually multiple solutions with optimising for time complexity.",
+    src: "",
+    github: "https://github.com/jackcorless91/leetcode",
+    url: "",
     color: "#BFBFBF"
   },
 ]

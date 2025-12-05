@@ -7,7 +7,7 @@ function Footer() {
       <div className="max-sm:w-8"></div>
       <div className="flex flex-col min-w-[187.3px]">
         <a
-          href="#"
+          href="https://linkedin.com/in/jack-corless-a91411295"
           target="_blank"
           rel="noopener noreferrer"
           className="menu-a m-[4px] group relative w-max cursor-pointer"
@@ -16,7 +16,7 @@ function Footer() {
           <span className="absolute -bottom-0.25 left-0 w-0 h-0.25 bg-white transition-all duration-300 group-hover:w-full"></span>
         </a>
         <a
-          href="#"
+          href="https://github.com/jackcorless91"
           target="_blank"
           rel="noopener noreferrer"
           className="menu-a  m-[4px] group relative w-max cursor-pointer"
