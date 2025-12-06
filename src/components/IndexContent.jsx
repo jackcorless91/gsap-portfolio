@@ -52,10 +52,25 @@ function IndexContent() {
           </div>
 
           <div className="flex flex-col justify-center items-center max-sm:hidden">
-            <div className="text-6xl uppercase tracking-tight">
-              <div className="cursor-pointer transition-colors duration-300 ease-in-out hover:text-[#FF2727]">#hero</div>
-              <div className="cursor-pointer transition-colors duration-300 ease-in-out hover:text-[#FF2727]">#projects</div>
-              <div className="cursor-pointer transition-colors duration-300 ease-in-out hover:text-[#FF2727]">#contact</div>
+            <div className="text-6xl uppercase tracking-tightn flex flex-col">
+              <a
+                href="/"
+                className="cursor-pointer transition-colors duration-300 ease-in-out hover:text-[#FF2727]"
+              >
+                #hero
+              </a>
+              <a
+                href="/projects"
+                className="cursor-pointer transition-colors duration-300 ease-in-out hover:text-[#FF2727]"
+              >
+                #projects
+              </a>
+              <a
+                href="/contact"
+                className="cursor-pointer transition-colors duration-300 ease-in-out hover:text-[#FF2727]"
+              >
+                #contact
+              </a>
             </div>
           </div>
         </div>

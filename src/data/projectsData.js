@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "Workplace Managment System",
     technologies: "Python, Flask, Django, Marshmallow etc...",
-    description: "One of my first larger Python projects that implements automated testing and ci/cd to Google Cloud Run. More details in the github repo including the ERD.",
+    description: "One of my first larger Python projects that implements automated testing and ci/cd to Google Cloud. It serves as a business management system to look after: employees, departments, client feedback, rosters, performance reviews and projects. The application connects to a PostgreSQL database using SQLAlchemy ORM and containerised using Docker. More details in the github repo including the ERD.",
     src: "",
     github: "https://github.com/jackcorless91/workplace_app",
     url: "https://github.com/jackcorless91/workplace_app",
