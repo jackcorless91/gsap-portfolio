@@ -30,21 +30,21 @@ function IndexContent() {
               <div className="flex justify-center items-center">
                 <div className="w-[50%] max-w-md">
                   <div className="flex justify-between">
-                    <button
-                      type="submit"
+                    <a
+                      href="/contact"
                       className="group relative mt-6 uppercase font-medium tracking-tight text-white cursor-pointer"
                     >
                       <span>contact</span>
                       <span className="absolute left-0 -bottom-0.5 h-0.5 w-0 bg-white transition-all duration-300 group-hover:w-full"></span>
-                    </button>
+                    </a>
 
-                    <button
-                      type="submit"
+                    <a
+                      href="/projects"
                       className="group relative mt-6 uppercase font-medium tracking-tight text-white cursor-pointer"
                     >
                       <span>projects</span>
                       <span className="absolute left-0 -bottom-0.5 h-0.5 w-0 bg-white transition-all duration-300 group-hover:w-full"></span>
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
