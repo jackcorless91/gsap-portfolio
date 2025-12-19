@@ -134,8 +134,9 @@ function Menu() {
                 <span className="absolute -bottom-0.25 left-0 w-0 h-0.5 bg-black transition-all group-hover:w-full"></span>
               </a>
               <a
-                href="#"
+                href="/jack_corless_resume.pdf"
                 target="_blank"
+                download="jack_corless_resume.pdf"
                 rel="noopener noreferrer"
                 className="menu-a m-[2px] group relative w-max cursor-pointer"
               >
