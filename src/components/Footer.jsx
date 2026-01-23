@@ -25,7 +25,7 @@ function Footer() {
           <span className="absolute -bottom-0.25 left-0 w-0 h-0.25 bg-white transition-all group-hover:w-full"></span>
         </a>
         <a
-          href="/jack_corless_resume.pdf"
+          href="/jack%20corless%20resume%20js.pdf"
           target="_blank"
           download="jack_corless_resume.pdf"
           rel="noopener noreferrer"
